@@ -11,12 +11,14 @@ body{
     align-items: center;
     margin-top: 20px;
     font-family: sans-serif;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
 }
 
 form{
     margin-top: 20px;
     width: 300px; 
-    background-color: rgb(255, 226, 59);
+    background-color: #ffe23b;
     border-radius: 20px;
     padding: 20px;
     display: flex;
@@ -39,7 +41,7 @@ button{
     border-radius: 10px;
     border: none;
     background-color: #00da25;
-    color: white;
+    /* color: white; */
     font-size: 18px;
     font-weight: 500;
 }
