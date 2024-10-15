@@ -39,7 +39,7 @@ input{
 }
 
 button{
-    padding: 20px; 
+    padding: 15px; 
     border-radius: 10px;
     border: none;
     color: var(--tg-theme-button-color);
