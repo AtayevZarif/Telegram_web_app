@@ -35,7 +35,18 @@ input{
     border: none;
     outline: none;
     font-size: 16px;
-    color: var(--tg-theme-secondary-text-color);
+}
+
+#name{
+    color: var(--tg-theme-secondary-button-text-color);
+}
+
+#email{
+    color: var(--tg-theme-secondary-bg-color);
+}
+
+#phone{
+    color: var(--tg-theme-secondary-button-color);
 }
 
 button{
