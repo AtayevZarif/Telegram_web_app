@@ -50,12 +50,12 @@ input{
 }
 
 button{
-    padding: 20px 50px; 
+    padding: 10px; 
     border-radius: 10px;
     border: none;
     color: var(--tg-theme-button-color);
     background-color: var(--tg-theme-button-text-color);
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     cursor: pointer;
     transition: all 500ms ease;
