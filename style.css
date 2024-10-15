@@ -38,13 +38,14 @@ input{
 }
 
 button{
-    padding: 10px; 
+    width: 120px;
+    padding: 20px 50px; 
     border-radius: 10px;
     border: none;
     color: var(--tg-theme-button-color);
     background-color: var(--tg-theme-button-text-color);
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     transition: all 500ms ease;
 }
