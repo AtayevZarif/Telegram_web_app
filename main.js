@@ -7,7 +7,7 @@ let form = document.querySelector("form")
 
 telegram.expand()
 
-name = telegram.initDataUnsafe.user.first_name + " " + telegram.initDataUnsafe.user.last_name
+// name = telegram.initDataUnsafe.user.first_name + " " + telegram.initDataUnsafe.user.last_name
 
 
 buyBtn.addEventListener("submit", (e) => {
