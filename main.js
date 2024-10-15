@@ -10,7 +10,7 @@ telegram.expand()
 // name = telegram.initDataUnsafe.user.first_name + " " + telegram.initDataUnsafe.user.last_name
 
 
-buyBtn.addEventListener("submit", (e) => {
+form.addEventListener("submit", (e) => {
     e.preventDefault()
 
     error.innerText = ""
