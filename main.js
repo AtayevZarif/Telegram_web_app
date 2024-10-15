@@ -2,7 +2,7 @@ let telegram = window.Telegram.WebApp;
 let name = document.getElementById("name")
 let phone = document.getElementById("phone")
 let email = document.getElementById("email")
-let buyBtn = document.querySelector("button")
+let buyBtn = document.querySelector("submit")
 
 name.value = telegram.initDataUnsafe.first_name + " " + telegram.initDataUnsafe.last_name
 
