@@ -29,6 +29,7 @@ form{
 }
 
 input{
+    color: #808080;
     width: 200px;
     padding: 10px;
     border-radius: 10px;
@@ -37,20 +38,8 @@ input{
     font-size: 16px;
 }
 
-#name{
-    color: var(--tg-theme-secondary-button-text-color);
-}
-
-#email{
-    color: var(--tg-theme-secondary-bg-color);
-}
-
-#phone{
-    color: var(--tg-theme-secondary-button-color);
-}
-
 button{
-    padding: 10px; 
+    padding: 20px; 
     border-radius: 10px;
     border: none;
     color: var(--tg-theme-button-color);
