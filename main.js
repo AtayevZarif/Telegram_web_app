@@ -3,14 +3,16 @@ let name = document.getElementById("name").value
 let phone = document.getElementById("phone").value
 let email = document.getElementById("email").value
 let error = document.getElementById("error")
-let buyBtn = document.querySelector("submit")
+let form = document.querySelector("form")
 
 telegram.expand()
 
 name = telegram.initDataUnsafe.user.first_name + " " + telegram.initDataUnsafe.user.last_name
 
 
-buyBtn.addEventListener("click", () => {
+buyBtn.addEventListener("submit", (e) => {
+    e.preventDefault()
+
     error.innerText = ""
 
     if (name.length < 5){
@@ -33,7 +35,7 @@ buyBtn.addEventListener("click", () => {
         phone: phone,  
         email: email,
     }
-    telegram.sendData("")
+    telegram.sendData(JSON.stringify(data))
 
     telegram.close()
 })
